@@ -55,8 +55,8 @@ def hash_collision(k):
 
     # n bits long digest is at most as secure as a symmetric 
     # encryption algorithm keyed with n/2 bits
-    x=int(x)
-    y=int(y)
+    x=bytes(x)
+    y=bytes(y)
     return( x, y )
     pass
 
